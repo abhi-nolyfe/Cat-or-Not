@@ -4,7 +4,7 @@ services:
     build:
       context: .
     ports:
-      - 8000:8000
+      - 8888:8888
     volumes:
       - ./model:/model
     deploy:
